@@ -54,3 +54,7 @@ Plane Surface(2) = {5, 6};
 Physical Surface("air") += {2};
 //+
 Physical Curve("wall") += {5};
+//+
+Physical Curve("edge") = {5};
+//+
+Physical Curve("wall") -= {5};
